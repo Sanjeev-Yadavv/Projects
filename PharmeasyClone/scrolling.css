@@ -1,0 +1,32 @@
+/* .item-content{
+    display: flex;
+    gap: 0px;
+    border: 1px solid red;
+    position: relative;
+}
+.arrow{
+    border: 1px solid black;
+    height: 40px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(57, 55, 55);
+    color: aliceblue;
+    border-radius: 50%;
+    font-size: large;
+   
+}
+
+.left{
+    position: absolute;
+    left: 20px;
+    /* right: 100px; */
+    /* top: 100px;
+}
+.right{
+    position: absolute;
+    right: 20px;
+    /* right: 100px; */
+    /* top: 100px;
+} */ 

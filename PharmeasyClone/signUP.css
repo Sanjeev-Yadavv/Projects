@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.signUPpage{
+    height: 450px;
+    width: 500px;
+    margin: 50px auto;
+    /* position: absolute; */
+    background-color: #e9f6f6;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 4px 0px 13px -2px #6be0db;
+    position: relative;
+    top: 149px;
+    /* margin-left: 1256px; */
+    /* display: none; */
+    /* transition: margin-left 4px; */
+    /* display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px; */
+}
+.signUPpage>h2{
+    color: #10847E;
+}
+.cancel{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: grey;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+}
+.line-2{
+    border: 2px solid #10847E;
+    height: 2px;
+    width: 30px;
+    margin-left: 223px;
+    margin-top: 5px;
+    transition: margin-left 1s;
+}
+.form-field{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    /* height: 200px; */
+    /* border: 1px solid red; */
+}
+.input{
+    height: 40px;
+    text-align: center;
+    font-size: large;
+    border-radius: 20px;
+    padding: 20px;
+    /* background-color: transparent; */
+    border: 1px solid grey;
+    max-height: 40px;
+}
+.btn-field{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.btn{
+    height: 40px;
+    width: 100px;
+    background-color: #10847E;
+    color: #fff;
+    font-size: large;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    /* text-align: center; */
+}
+.btn:hover{
+    background-color: #104844;
+    transition: all 1s;
+}
+
+@media all and (max-height: 1024px){
+    .signUPpage{
+        /* margin-left: 500px; */
+    }
+}
